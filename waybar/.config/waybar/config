@@ -64,11 +64,13 @@
     },
 	"custom/logout": {
 		"format": "󰗼 ",
-		"on-click": "sway exit"
+		"on-click": "sway exit",
+        "tooltip": false
 	},
     "custom/power": {
 		"format": " ",
-		"on-click": "shutdown now"
+		"on-click": "shutdown now",
+        "tooltip": false
 	},
     "custom/scratchpad-indicator": {
         "format-text": "{}hi",
@@ -92,20 +94,5 @@
         "custom/lock",
         "custom/reboot",
     ]
-},
-"custom/quit": {
-    "format": "󰗼",
-    "tooltip": false,
-    "on-click": "hyprctl dispatch exit"
-},
-"custom/lock": {
-    "format": "󰍁",
-    "tooltip": false,
-    "on-click": "swaylock"
-},
-"custom/reboot": {
-    "format": "󰜉",
-    "tooltip": false,
-    "on-click": "reboot"
-}
+  }
 }
