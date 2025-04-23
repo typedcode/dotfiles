@@ -7,22 +7,22 @@ return {
   opts = {},
   keys = {
         {
-            "<leader>ff",
+            "<leader>sf",
             function() require('fzf-lua').files() end,
             desc="Find Files in current Projet directory"
         },
         {
-            "<leader>fg",
+            "<leader>sg",
             function() require('fzf-lua').live_grep() end,
             desc="Find by grepping in current Project directory"
         },
         {
-            "<leader>fk",
+            "<leader>sk",
             function() require('fzf-lua').keymaps() end,
             desc="Search the given keymaps"
         },
         {
-            "<leader>fr",
+            "<leader>sr",
             function() require('fzf-lua').resume() end,
             desc="Resuma last search"
         },
@@ -32,7 +32,7 @@ return {
             desc="List open buffers"
         },
         {
-            "<leader>fo",
+            "<leader>so",
             function() require('fzf-lua').oldfiles() end,
             desc="List last open files"
         },
