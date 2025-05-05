@@ -8,6 +8,7 @@ return {
 			vue = { "prettierd" },
 			html = { "prettierd" },
 			css = { "prettierd" },
+			xml = { "xmlformatter" },
 		},
 		format_on_save = {
 			timeout_ms = 500,

@@ -252,6 +252,8 @@ return {
 			"stylua", -- Used to format Lua code
 			"prettierd", -- Used to format javascript and typescript code
 			"volar", -- vue-language-server
+			"lemminx", -- xml language server
+			"xmlformatter", -- formatter for xml files
 		})
 		require("mason-tool-installer").setup({ ensure_installed = ensure_installed })
 
