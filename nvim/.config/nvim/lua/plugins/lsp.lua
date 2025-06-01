@@ -251,7 +251,7 @@ return {
 		vim.list_extend(ensure_installed, {
 			"stylua", -- Used to format Lua code
 			"prettierd", -- Used to format javascript and typescript code
-			"volar", -- vue-language-server
+			"vue_ls", -- vue-language-server
 			"lemminx", -- xml language server
 			"xmlformatter", -- formatter for xml files
 		})
