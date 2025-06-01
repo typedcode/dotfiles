@@ -1,7 +1,7 @@
 {
     "modules-left": ["hyprland/workspaces"],
     "modules-center": ["clock"],
-    "modules-right": ["tray", "pulseaudio", "network", "battery", "custom/logout", "custom/power"],
+    "modules-right": ["tray", "pulseaudio", "network", "battery", "custom/power"],
 
     "sway/mode": {
         "format": "<span style=\"italic\">{}</span>"
@@ -62,11 +62,6 @@
         "format-full": "",
         "format-icons": ["", "", "", "", ""]
     },
-	"custom/logout": {
-		"format": "󰗼 ",
-		"on-click": "sway exit",
-        "tooltip": false
-	},
     "custom/power": {
 		"format": " ",
 		"on-click": "shutdown now",
