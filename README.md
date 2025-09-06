@@ -9,6 +9,8 @@ The following packages need to be installed to work with the given hyprland conf
 - wofi
 - kitty
 - hyprlock
+- swaync (Notification center)
+- hyprpaper
 
 Fedora users:
 To install hyprlock one needs to enable the solopasha/hyprland copr repository. hyprlock is currently not available in the standard fedora repo.
